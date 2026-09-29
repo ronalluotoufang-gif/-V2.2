@@ -1,6 +1,6 @@
 # 三义漫剧 AI 编程助手插件（Claude Code / Codex / Kimi Code 通用）
 
-> ⚠️ 内部资料，请使用 **Private 仓库**。不要把真实剧本、客户资料提交到本仓库。
+> ⚠️ 本仓库公开发布写作规则。不要把真实剧本、客户资料或密钥提交到本仓库。
 
 | 插件 | 版本 | 用途 |
 |---|---|---|
@@ -14,12 +14,12 @@
 
 ## 安装
 
-把下面的 `你的账号/仓库名` 换成实际地址。
+以下命令已填写本仓库地址。
 
 ### Claude Code
 
 ```
-/plugin marketplace add 你的账号/仓库名
+/plugin marketplace add ronalluotoufang-gif/-V2.2
 /plugin install sanyi-manhua-writing@sanyi-manhua
 ```
 
@@ -28,7 +28,7 @@
 ### Codex
 
 ```
-codex plugin marketplace add 你的账号/仓库名
+codex plugin marketplace add ronalluotoufang-gif/-V2.2
 codex plugin add sanyi-manhua-writing@sanyi-manhua
 ```
 
@@ -39,7 +39,7 @@ codex plugin add sanyi-manhua-writing@sanyi-manhua
 在 Kimi Code 的对话里运行：
 
 ```
-/plugins install https://github.com/你的账号/仓库名
+/plugins install https://github.com/ronalluotoufang-gif/-V2.2
 /reload
 ```
 
@@ -47,7 +47,7 @@ codex plugin add sanyi-manhua-writing@sanyi-manhua
 
 ### 手动安装（任何工具都适用，私有仓库推荐）
 
-先 `git clone` 本仓库，然后：
+先运行 `git clone https://github.com/ronalluotoufang-gif/-V2.2.git`，进入克隆目录，然后：
 
 - macOS / Linux：`bash install.sh`
 - Windows：`powershell -ExecutionPolicy Bypass -File install.ps1`
