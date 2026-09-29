@@ -1,0 +1,20 @@
+{
+  "name": "sanyi-manhua",
+  "interface": {
+    "displayName": "三义漫剧"
+  },
+  "plugins": [
+    {
+      "name": "sanyi-manhua-writing",
+      "source": {
+        "source": "local",
+        "path": "./plugins/sanyi-manhua-writing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

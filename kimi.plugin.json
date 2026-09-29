@@ -1,0 +1,10 @@
+{
+  "name": "sanyi-manhua-writing",
+  "version": "2.2.1",
+  "description": "漫剧/短剧剧本写作规则 V2.2：硬五条 + 参考层 + 项目模板，只管写、不评分",
+  "skills": "./plugins/sanyi-manhua-writing/skills/",
+  "interface": {
+    "displayName": "三义漫剧 · 写作线",
+    "shortDescription": "漫剧/短剧剧本写作规则，只管写、不评分"
+  }
+}

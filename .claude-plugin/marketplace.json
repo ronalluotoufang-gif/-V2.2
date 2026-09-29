@@ -1,0 +1,16 @@
+{
+  "name": "sanyi-manhua",
+  "owner": {
+    "name": "三义漫剧团队"
+  },
+  "metadata": {
+    "description": "三义漫剧内部 Claude Code 插件：剧本写作线（评审线另行发布）"
+  },
+  "plugins": [
+    {
+      "name": "sanyi-manhua-writing",
+      "source": "./plugins/sanyi-manhua-writing",
+      "description": "漫剧/短剧剧本写作规则 V2.2：硬五条 + 参考层 + 项目模板，只管写、不评分"
+    }
+  ]
+}
