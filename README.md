@@ -4,7 +4,7 @@
 
 | 插件 | 版本 | 用途 |
 |---|---|---|
-| `sanyi-manhua-writing` | 2.2.1 | 剧本**写作线**：写/续写/改稿、分集大纲、人设、钩子与集尾卡点、项目初始化。**不含评分**。 |
+| `sanyi-manhua-writing` | 2.3.0 | 剧本**写作线**：写/续写/改稿、分集大纲、人设、语言调性与人物声线、钩子与集尾卡点、项目初始化。**不含评分**。 |
 
 评审线（评分 SOP）尚未拆分发布，暂不在本仓库。
 
@@ -73,7 +73,7 @@ codex plugin add sanyi-manhua-writing@sanyi-manhua
 | Kimi Code | `/skill:sanyi-manhua-writing` | 同上 |
 
 1. **新项目**：说"用 sanyi-manhua-writing 初始化一个新漫剧项目"，它会把项目模板复制到你指定的目录。
-2. 先填好项目根目录的 `AGENTS.md`、`01-设定/`、`03-大纲/分集大纲.md`。
+2. 先填好项目根目录的 `AGENTS.md`，再填 `01-设定/语言调性卡.md`、`01-设定/` 下的其余设定与 `03-大纲/分集大纲.md`。
 3. 每集一个新会话："用 sanyi-manhua-writing，读本目录 AGENTS.md，按开工流程写 EPxx"。
 
 **关于项目说明文件**：项目模板里 `AGENTS.md` 是正本，Codex 和 Kimi Code 直接读取；`CLAUDE.md` 只有一行 `@AGENTS.md`，让 Claude Code 也读到同一份内容。只改 `AGENTS.md`。
